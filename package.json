@@ -1,0 +1,26 @@
+{
+  "name": "compound-slugs",
+  "version": "0.9.0",
+  "description": "slugs in compoundjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/minmb/compound-slugs.git"
+  },
+  "keywords": [
+    "compoundjs",
+    "slugs",
+    "url"
+  ],
+  "author": "Martin Häger <martin.hager@minmb.se>",
+  "license": "MIT",
+  "dependencies": {
+    "underscore": "*",
+    "unidecode": "*",
+    "async": "*",
+    "inflection": "*"
+  }
+}
