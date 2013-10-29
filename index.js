@@ -133,7 +133,7 @@ module.exports = function(compound) {
         if (!delim) delim = '-';
 
         var re = /[\t !"#$%&\'()*\-/<=>?@\[\\\]^_`{|},.]+/,
-            words = str.toLowerCase().split(re);
+            words = (str + '').toLowerCase().split(re);
 
         return _.chain(words).map(function(word) {
             return unidecode(word).split(/\s+/)
